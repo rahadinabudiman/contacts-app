@@ -1,24 +1,25 @@
 const getData = () => {
-  return [
-    {
+  return [{
       id: 1,
       name: "Dimas Saputra",
       tag: "dimasmds",
-      imageUrl: "/images/dimasmds.jpeg",
+      imageUrl: "/assets/images/dimasmds.jpeg",
     },
     {
       id: 2,
       name: "Arif Faizin",
       tag: "arifaizin",
-      imageUrl: "/images/arifaizin.jpeg",
+      imageUrl: "/assets/images/arifaizin.jpeg",
     },
     {
       id: 3,
       name: "Rahmat Fajri",
       tag: "rfajri27",
-      imageUrl: "/images/rfajri27.jpeg",
+      imageUrl: "/assets/images/rfajri27.jpeg",
     },
   ];
 };
 
-export { getData };
+export {
+  getData
+};
